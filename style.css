@@ -1,0 +1,8 @@
+*{
+    box-sizing: border-box;
+}
+.code {
+    margin: 20px;
+    background-color: #F7F7F7;
+    padding: 20px 10px;
+}
