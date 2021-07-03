@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Documentation Page</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <nav id="navbar">
       <header>JS Documentation</header>
       <ul>
         <li>
-          <a class="nav-link" href="#">Inroduction</a>
+          <a class="nav-link" href="#Introduction">Introduction</a>
         </li>
         <li>
           <a class="nav-link" href="#What_you_should_already_know"
@@ -25,7 +26,7 @@
           >
         </li>
         <li>
-          <a class="nav-link" href="#Hello)world">Hello World</a>
+          <a class="nav-link" href="#Hello_world">Hello World</a>
         </li>
         <li>
           <a class="nav-link" href="#Variables">Variables</a>
@@ -65,9 +66,9 @@
         </li>
       </ul>
     </nav>
-    <main class="main-doc">
-      <section class="main-section">
-        <header>Introduction</header>
+    <main id="main-doc">
+      <section id="Introduction" class="main-section">
+        <header id="Introduction">Introduction</header>
         <p>
           JavaScript is a cross-platform, object-oriented scripting language. It
           is a small and lightweight language. Inside a host environment (for
@@ -88,6 +89,7 @@
             For example, client-side extensions allow an application to place
             elements on an HTML form and respond to user events such as mouse
             clicks, form input, and page navigation.
+
           </li>
           <li>
             Server-side JavaScript extends the core language by supplying
@@ -100,7 +102,7 @@
         </ul>
       </section>
       <section class="main-section">
-        <header>What you should already know</header>
+        <header  id="What_you_should_already_know">What you should already know</header>
         <p>This guide assumes you have the following basic background:</p>
         <ul>
           <li>
@@ -115,7 +117,7 @@
         </ul>
       </section>
       <section class="main-section">
-        <header>JavaScript and Java</header>
+        <header id="JavaScript_and_Java">JavaScript and Java</header>
         <p>
           JavaScript and Java are similar in some ways but fundamentally
           different in some others. The JavaScript language resembles Java but
@@ -144,7 +146,7 @@
         </p>
       </section>
       <section class="main-section">
-        <header>Hello world</header>
+        <header id="Hello_world">Hello world</header>
         <p>
           To get started with writing JavaScript, open the Scratchpad and write
           your first "Hello world" JavaScript code:
@@ -157,9 +159,9 @@
           Select the code in the pad and hit Ctrl+R to watch it unfold in your
           browser!
         </p>
-      </section>
+        
       <section class="main-section">
-        <header>Variables</header>
+        <header id="Variables">Variables</header>
         <p>
           You use variables as symbolic names for values in your application.
           The names of variables, called identifiers, conform to certain rules.
@@ -179,7 +181,7 @@
         </p>
       </section>
       <section class="main-section">
-        <header>Declaring variables</header>
+        <header id="Declaring_variables">Declaring variables</header>
         <p>You can declare a variable in three ways:</p>
         <p>With the keyword var. For example,</p>
         <code class="code">var x = 42.</code>
