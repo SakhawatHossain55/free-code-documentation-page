@@ -1,68 +1,68 @@
-
 body {
-    font-family: 'Open Sans',Arial,sans-serif;
-    line-height: 1.5;
-    color: hsl(0, 0%, 20%);
-  }
-  
-  h1, h2 {
-    color: #000000;
-  }
-  
-  #navbar {
-    position: fixed;
-    top: -1px;
-    left: 0px;
-    width: 30vw;
-    height: 100%;
-    border-style: solid;
-    border-width: 1px;
-  }
-  
-  
-  #navbar h1 {
-    text-align: center;
-  }
+  font-family: "Open Sans", Arial, sans-serif;
+  line-height: 1.5;
+  color: hsl(0, 0%, 20%);
+}
 
-  navbar ul {
-    overflow-y: auto;
-    overflow-x: hidden;
-  }
-  
-  #nav-list {
-    list-style: none;
-    padding-left: 0px;
-    overflow-y:auto;
-  }
-  
-  #nav-list li {
-    border-style: solid;
-    border-width: 1px;
-    border-color: #e6e6e6;
-    text-align: center;
-  }
-  
-  #nav-list li:hover {
-    animation-name: nav-list-item-color;
-    animation-duration: 90ms;
-    animation-fill-mode: forwards;
-  }
-  
-  .nav-link {
-    text-decoration: inherit;
-    color: inherit;
-  }
+#navbar {
+  position: fixed;
+  top: -1px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: 3px solid #00161666;
+}
 
-  main {
-    margin-left: 31vw;
-    margin-right: 1vw;
-  }
-  
-  
+#navbar header {
+  text-align: center;
+}
 
-  
+navbar ul {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#nav-list {
+  list-style: none;
+  padding-left: 0px;
+  overflow-y: auto;
+}
+
+#nav-list li {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e6e6e6;
+  text-align: center;
+}
+
+#nav-list li:hover {
+  animation-name: nav-list-item-color;
+  animation-duration: 90ms;
+  animation-fill-mode: forwards;
+}
+
+.nav-link {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+main {
+  margin-left: 350px;
+  margin-right: 1vw;
+}
+
 .code {
-    margin: 20px;
-    padding: 10px 20px;
-    background-color: #F1F1F1F1;
+  margin: 20px;
+  padding: 20px 30px;
+  background-color: #f1f1f1f1;
+  border-radius: 5px;
+}
+
+header {
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+section li {
+    margin: 15px 0px 0px 20px
 }
