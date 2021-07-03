@@ -26,7 +26,7 @@ body {
 
   navbar ul {
     overflow-y: auto;
-    overflow-x: hidde
+    overflow-x: hidden;
   }
   
   #nav-list {
