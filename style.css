@@ -23,6 +23,11 @@ body {
   #navbar h1 {
     text-align: center;
   }
+
+  navbar ul {
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
   
   #nav-list {
     list-style: none;
@@ -47,4 +52,17 @@ body {
     text-decoration: inherit;
     color: inherit;
   }
+
+  main {
+    margin-left: 31vw;
+    margin-right: 1vw;
+  }
   
+  
+
+  
+.code {
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #F1F1F1F1;
+}
